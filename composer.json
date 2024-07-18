@@ -1,0 +1,15 @@
+{
+	"name": "khaild/phpfirst",
+	"autoload": {
+		"psr-4": {
+			"Khaild\\Phpfirst\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "KhaledMahmoudSaeed",
+			"email": "khaild22k12m71f@gmail.com"
+		}
+	],
+	"require": {}
+}
