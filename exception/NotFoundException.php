@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\exception;
+namespace Khaild\Phpfirst\exception;
 
 
 /**
  * Class NotFoundException
  *
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\exception
+ * @package Khaild\Phpfirst\exception
  */
 class NotFoundException extends \Exception
 {

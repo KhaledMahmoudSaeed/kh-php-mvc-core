@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace Khaild\Phpfirst\form;
 
-use app\core\Model;
+use Khaild\Phpfirst\Model;
 
 /**
  * Class BaseField
  *
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\form
+ * @package Khaild\Phpfirst\form
  */
 abstract class BaseField
 {
@@ -22,7 +22,7 @@ abstract class BaseField
     /**
      * Field constructor.
      *
-     * @param \app\core\Model $model
+     * @param \Khaild\Phpfirst\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

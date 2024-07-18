@@ -1,14 +1,14 @@
 <?php
-namespace app\core\Middlewares;
+namespace Khaild\Phpfirst\Middlewares;
 
-use app\core\App;
-use app\core\exception\ForbiddenException;
+use Khaild\Phpfirst\App;
+use Khaild\Phpfirst\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\Middlewares
+ * @package Khaild\Phpfirst\Middlewares
  */
 
 class AuthMiddleware extends BaseMiddleWare

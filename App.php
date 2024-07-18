@@ -1,9 +1,9 @@
 <?php
-namespace app\core;
+namespace Khaild\Phpfirst;
 
 // very important if you want to get objects form SiteControllers
 // use app\controllers\SiteController;
-// use app\core\Controller;
+// use Khaild\Phpfirst\Controller;
 
 
 /* instead of wirte require or include in every page we want to use this class we use namespace with the path of it 
@@ -17,7 +17,7 @@ have to wite only the class name ..... $n =new app/core/App();  ==> $n = new App
  * Class App
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 
 class App
@@ -47,7 +47,7 @@ class App
         $this->view = new View();
         $this->response = new Response();
         $this->router = new Router($this->request, $this->response);// unless this line you will get this Fatal error.... you have define always your objects logically ^_^
-        //Uncaught Error: Typed property app\core\App::$router must not be accessed before initialization in C:\xampp\htdocs\mvc\index.php:9 Stack trace: #0 {main} thrown in C:\xampp\htdocs\mvc\index.php on line 9
+        //Uncaught Error: Typed property Khaild\Phpfirst\App::$router must not be accessed before initialization in C:\xampp\htdocs\mvc\index.php:9 Stack trace: #0 {main} thrown in C:\xampp\htdocs\mvc\index.php on line 9
         $primaryValue = $this->session->get('user');
         if ($primaryValue) {
             $primaryKey = $this->userClass::primaryKey();

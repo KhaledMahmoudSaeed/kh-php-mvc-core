@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\Middlewares;
+namespace Khaild\Phpfirst\Middlewares;
 
 /**
  * Class BasMiddleware
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\Middlewares
+ * @package Khaild\Phpfirst\Middlewares
  */
 
 abstract class BaseMiddleware

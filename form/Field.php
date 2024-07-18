@@ -1,13 +1,13 @@
 <?php
-namespace app\core\form;
+namespace Khaild\Phpfirst\form;
 
-use app\core\Model;
+use Khaild\Phpfirst\Model;
 
 /**
  * Class Field
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\form
+ * @package Khaild\Phpfirst\form
  */
 class Field extends BaseField
 {
@@ -20,7 +20,7 @@ class Field extends BaseField
     public string $attribute;
     /**
      * Field constructor
-     * @param \app\core\Model $Model
+     * @param \Khaild\Phpfirst\Model $Model
      * @param string $attribute
      */
 

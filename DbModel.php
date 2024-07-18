@@ -1,14 +1,14 @@
 <?php
-namespace app\core;
+namespace Khaild\Phpfirst;
 
-use app\core\App;
-use app\core\Model;
+use Khaild\Phpfirst\App;
+use Khaild\Phpfirst\Model;
 
 /**
  * Class App
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 abstract class DbModel extends Model
 {

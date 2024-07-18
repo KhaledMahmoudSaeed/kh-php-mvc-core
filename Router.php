@@ -1,17 +1,17 @@
 <?php
 
-namespace app\core;
+namespace Khaild\Phpfirst;
 
-use app\core\Controller;
-use app\core\App;
-use app\core\Middlewares;
-use app\core\exception\NotFoundException;
+use Khaild\Phpfirst\Controller;
+use Khaild\Phpfirst\App;
+use Khaild\Phpfirst\Middlewares;
+use Khaild\Phpfirst\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 
 class Router
@@ -19,9 +19,9 @@ class Router
 
     /**
      * Router constructor
-     * @param \app\core\Request $requset
-     * @param \app\core\Response $response  
-     * @param \app\core\Response $r
+     * @param \Khaild\Phpfirst\Request $requset
+     * @param \Khaild\Phpfirst\Response $response  
+     * @param \Khaild\Phpfirst\Response $r
      */
     protected array $routes = [];
     public Response $response;
@@ -66,7 +66,7 @@ class Router
             //     $this->type = "auth";
             // }
             // }
-            /** @var  \app\core\Controller $controller  */
+            /** @var  \Khaild\Phpfirst\Controller $controller  */
             $controller = new $callback[0]();
             App::$app->controller = $controller;
             $controller->action = $callback[1];

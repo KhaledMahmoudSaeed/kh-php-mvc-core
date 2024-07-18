@@ -1,20 +1,20 @@
 <?php
-namespace app\core;
+namespace Khaild\Phpfirst;
 
-use app\core\App;
-use app\core\Middlewares\BaseMiddleWare;
+use Khaild\Phpfirst\App;
+use Khaild\Phpfirst\Middlewares\BaseMiddleWare;
 
 /**
  * Class Controller
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 class Controller
 {
     /**
      * Summary of layout
-     * @var \app\core\Middlewares\BaseMiddleWare
+     * @var \Khaild\Phpfirst\Middlewares\BaseMiddleWare
      */
     public string $layout = 'main';
     public string $action = ' ';

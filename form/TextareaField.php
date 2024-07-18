@@ -1,14 +1,14 @@
 <?php
 
 
-namespace app\core\form;
+namespace Khaild\Phpfirst\form;
 
 
 /**
  * Class TextareaField
  *
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\form
+ * @package Khaild\Phpfirst\form
  */
 class TextareaField extends BaseField
 {

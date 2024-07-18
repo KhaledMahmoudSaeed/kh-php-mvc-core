@@ -1,14 +1,14 @@
 <?php
-namespace app\core\form;
+namespace Khaild\Phpfirst\form;
 
-use app\core\form\Field;
-use app\core\Model;
+use Khaild\Phpfirst\form\Field;
+use Khaild\Phpfirst\Model;
 
 /**
  * Class Form
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core\form
+ * @package Khaild\Phpfirst\form
  */
 class Form
 {

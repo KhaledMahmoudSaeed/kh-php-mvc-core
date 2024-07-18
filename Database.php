@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace Khaild\Phpfirst;
 
-use app\core\App;
+use Khaild\Phpfirst\App;
 
 /**
  * Class Controller
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 
 

@@ -1,13 +1,13 @@
 <?php
-namespace app\core;
+namespace Khaild\Phpfirst;
 
-use app\core\App;
+use Khaild\Phpfirst\App;
 
 /**
  * Class Model
  * 
  * @author KhaledMahmoudSaeed <khaild22k12m71f@gmail.com>
- * @package app\core
+ * @package Khaild\Phpfirst
  */
 abstract class Model
 {
